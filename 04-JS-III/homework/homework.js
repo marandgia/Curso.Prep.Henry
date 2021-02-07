@@ -221,12 +221,16 @@ function breakStatement(numero) {
   for (var i = 0; i < 10; i++) {
     numero += 2
     if (numero === i) {
-      return "Se interrumpió la ejecución"
+      break;
     }
 
     array.push (numero)
   }
-  return array
+
+  if (numero === i) {
+    return "Se interrumpió la ejecución"
+  }
+  return array    
 }
 
 
