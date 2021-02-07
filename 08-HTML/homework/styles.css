@@ -1,0 +1,33 @@
+h1 {color: green;
+}
+
+img { width: 400px;
+}
+
+#thirdDiv {
+  height: 600px;
+  width: 500px;
+  background-color: purple;
+  padding: 50px;
+  border: 10px solid salmon;
+}
+
+#spanId {
+  font-size: 18px
+  margin: 50px
+}
+
+body {
+background-image: url("https://content.skyscnr.com/m/54c9639578ce8882/original/GettyImages-185617293_doc.jpg?resize=1800px:1800px&quality=100");
+background-image: center;
+background-image: no-repeat;
+background-image: fixed;
+background-size: cover;
+}
+
+div {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
